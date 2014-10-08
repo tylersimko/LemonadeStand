@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Price {
+    let lemon = 2
+    let iceCube = 1
+}

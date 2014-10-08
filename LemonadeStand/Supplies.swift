@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+struct Supplies {
+    
+    var moneyRemaining = 0
+    var lemonsRemaining = 0
+    var iceCubesRemaining = 0
+    
+    // can't use self keyword in a struct
+    
+    init(money: Int, lemons: Int, iceCubes: Int) { //Custom initializer
+        moneyRemaining = money
+        lemonsRemaining = lemons
+        iceCubesRemaining = iceCubes
+    }
+}
